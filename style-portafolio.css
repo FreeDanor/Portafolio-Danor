@@ -1,0 +1,265 @@
+:root {
+   --color-de-fondo: whitesmoke;
+   --color-de-link: black;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__header .menu__title {
+    margin-left: 0.5rem;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.menu__list__item:hover {
+    border-bottom: 3px solid green;
+    padding-bottom: 0.2rem;
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title__container {
+    width: 45%;
+}
+
+.title__container .title__bio {
+    flex: none;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.title__subsection {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.title__network {
+    display: flex;
+    justify-content: center;
+    padding-right: 4rem;
+}
+
+.title__network__item {
+    margin-right: 4rem;
+}
+
+.about {
+    margin-top: 4rem;
+    display: flex;
+    justify-content:space-around;
+    background: OldLace;
+    padding-bottom: 3rem;
+}
+
+.about__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+
+.about__title {
+    font-style: italic;
+    font-size: 28px;
+}
+
+.about__paragraph {
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-bottom: 2px dotted steelblue;
+}
+
+.skills__title {
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills__box {
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+.skills__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.hobbies__title {
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbies__box {
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+.hobbies__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.academic {
+    padding: 4rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    background: OldLace;
+}
+
+.academic__title {
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.academic__courses__box {
+    text-align: center;
+    background: white;
+    padding: 10px 50px 10px 10px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.experience__section__title {
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.experience__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experience__box:nth-child(2) {
+    margin-bottom: 5rem;
+}
+
+.experience__box:nth-child(3) {
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+}
+
+.experience__info {
+    text-align: center;
+    font-weight: bold;
+}
+
+.experience__text {
+    font-weight: normal;
+}
+
+.experiencia__botao--repo {
+    width: 110px;
+    height: 50px;
+    margin-right: 2rem;
+    background: white;
+    color: black;
+    font-size: 15px;
+    border: 1.5px dotted;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:focus {
+    transform: scale(0.92);
+}
+
+.experience__botao--demo {
+    width: 110px;
+    height: 50px;
+    background: DodgerBlue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.experience__botao--demo:focus {
+    transform: scale(0.92);
+}
+
+.footer {
+   text-align: center;
+   background: oldlace;
+   padding-top: 2rem;
+}
